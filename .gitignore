@@ -1,0 +1,35 @@
+# Whitelist approach: ignore everything in the project folder by default,
+# then allow only the small, shareable parts of the project.
+/*
+!/.gitignore
+!/README.md
+!/docs/
+!/scripts/
+!/results/
+
+# Never commit large genomics files, even inside allowed folders
+*.fastq
+*.fastq.gz
+*.fq.gz
+*.bam
+*.bai
+*.cram
+*.sam
+*.fasta
+*.fa
+*.vcf
+*.vcf.gz
+*.tbi
+*.csi
+*.gtf.gz
+*.cnn
+*.cnr
+*.rds
+
+# OS / editor clutter
+.DS_Store
+.ipynb_checkpoints/
+.Rhistory
+.RData
+__pycache__/
+*.pyc
