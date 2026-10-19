@@ -1,8 +1,8 @@
 #!/bin/bash
 # Step 13b: confirm homozygous deletions directly from read depth, exon by exon (MANE Select exons, GENCODE 50).
 # A VCF cannot show this: where there are no reads there is nothing to call. Conda env: wes.
-# Result: CDKN2A - all exons ~0x in tumor (normal 47-284x) -> whole-gene homozygous deletion
-#         PTEN   - 5' exons retained, 3' part (from ~chr10:87.957 Mb to the gene end) ~0x -> partial homozygous deletion
+# Result: CDKN2A - all 3 MANE exons 0x in tumor (normal 67-266x) -> whole-gene homozygous deletion
+#         PTEN   - exons 1-6 retained, exons 7-9 <=1x in tumor (normal 67-249x) -> partial homozygous deletion
 set -euo pipefail
 GTF=ref/gencode.v50.annotation.gtf.gz
 

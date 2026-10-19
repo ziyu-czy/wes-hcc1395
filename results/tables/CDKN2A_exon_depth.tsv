@@ -1,0 +1,4 @@
+chrom	start	end	exon	tumor_DP	normal_DP
+chr9	21974677	21974857	CDKN2A_exon1	0.0	124.2
+chr9	21970901	21971208	CDKN2A_exon2	0.0	266.0
+chr9	21967751	21968242	CDKN2A_exon3	0.0	67.2

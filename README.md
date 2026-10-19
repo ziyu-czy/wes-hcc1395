@@ -110,8 +110,8 @@ Every other variant that was heterozygous in the normal is ClinVar Benign. The p
 
 | Gene | Estimated copies | Interpretation |
 |---|---|---|
-| *CDKN2A* | 0 | **homozygous deletion**: every exon ≈ 0× in the tumor vs 47–284× in the normal |
-| *PTEN* | 0 for the 3′ part | **partial homozygous deletion**: 5′ exons retained, ≈ 0× from about chr10:87.957 Mb to the gene end, on an LOH background |
+| *CDKN2A* | 0 | **homozygous deletion**: all 3 MANE Select exons 0× in the tumor vs 67–266× in the normal |
+| *PTEN* | 0 for exons 7–9 | **partial homozygous deletion**: exons 1–6 retained (53–106×), exons 7–9 ≤ 1× in the tumor vs 67–249× in the normal, on an LOH background |
 | *MYC* | ≈ 6.4 | gain (about 2× mean ploidy) |
 | *CCND1* | ≈ 5.5 | gain |
 | *ERBB2* | ≈ 2 (LOH) | not amplified → consistent with HER2-negative TNBC |
